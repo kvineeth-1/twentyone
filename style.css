@@ -1,0 +1,49 @@
+.margincontainer{
+   display: flex;
+   width: 330px;
+   height: 330px;
+}
+.box{
+    width: 100px;
+   height: 100px;
+   background-color: aqua;
+   margin: 10px;
+}
+.text-external{
+   color: cadetblue;
+}
+.paddingcontainer{
+   display: flex;
+   width: 330px;
+   height: 330px;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    width: 600px;
+    align-items: center;
+    margin: 170px;
+
+
+
+}
+.boxes{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    color: violet;
+    margin: 20px;
+    padding: 30px;
+
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .text{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- "CSS Display - 
+inline, 
+block, 
+inline-block, 
+none, 
+flex" -->
+
+<!-- Q 1 : Create unordered list and ordered list
+Q 2 : Create user form accepting name age contact address 
+Q 3 : Create radio button in selecting Male, Female and create checkbox for selecting options as React HTML CSS JS Node
+Q 4 : Explain different types of CSS
+Q 5 : Create an example to explain the difference between margin and padding
+Q 6 : By using flex , arranges 10 boxes. three boxes should be in a row and page should be scrollable -->
+
+<ul type="square">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Grapes</li>
+    <li>Banana</li>
+    <li>Pineapple</li>
+</ul>
+
+<ol type="I">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Grapes</li>
+    <li>Banana</li>
+    <li>Pineapple</li>
+</ol>
+
+<form action="">
+    <label for="name">Name</label> 
+    <input type="text" placeholder="name" id="name" value="name"> <br> <br>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" value="age"> <br> <br>
+    <label for="textarea">Address</label>
+    <textarea rows="5" cols="40" name="comment" id="textarea">
+    Enter text here</textarea> <br> <br>
+
+    <input type="submit" value="submit">
+</form>
+<br>
+<br>
+<br>
+
+<!-- radio and checkbox -->
+<form action="">
+<input type="radio" name="gender" id="male">
+<label for="male">Male</label>
+<br>
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<input type="checkbox" name="course" id="react">
+<label for="react">React</label>
+<br>
+<input type="checkbox" name="coursea" id="html">
+<label for="html">html</label>
+<br>
+<input type="checkbox" name="courseaa" id="node">
+<label for="node">Node</label>
+<br>
+<input type="checkbox" name="courseaaa" id="css">
+<label for="css">Css</label>
+<br>
+<input type="checkbox" name="cours" id="js">
+<label for="js">Js</label>
+<br>
+<br>
+<input type="submit" value="submit">
+
+</form>
+
+<!-- inline, internal,external -->
+<p>
+    Inline>Internal>External <br>
+    inline Css- We add styles to specific HTML elements.
+    <p style="color: brown;">Lorem ipsum dolor sit amet.</p>
+    Internal css-allows you to include CSS code in <head> section of a markup document.
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    External-External stylesheet works by linking a .css file, containing all the CSS rules, to an HTML document.
+    <p class="text-external">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+</p>
+
+  <div>
+    margin is the space around an elements border
+    
+    <div class="margincontainer">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+    </div>
+    padding is the space between an elements border and the elements content
+    <div class="paddingcontainer">
+        <div class="box1">Box1</div>
+        <div class="box1">Box2</div>
+        <div class="box1">Box3</div>
+    </div>
+
+    <div class="container">
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+        <div class="boxes">Box</div>
+
+    </div>
+
+  </div>
+</body>
+</html>
